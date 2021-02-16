@@ -1,0 +1,386 @@
+@font-face {
+    font-family: prod;
+    src: url('../font/prod.ttf')
+}
+
+@font-face {
+    font-family: prodmed;
+    src: url('../font/prodmedium.ttf')
+}
+
+@font-face {
+    font-family: prodbold;
+    src: url('../font/prodbold.ttf')
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body,
+html {
+    margin: 0;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+.background {
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tablehopper {
+    letter-spacing: 1px;
+    font-size: 30px;
+    font-family: prodbold;
+}
+
+.nav-item a {
+    background-color: transparent;
+    font-family: prodbold;
+    letter-spacing: 1px;
+    font-size: 14px;
+    color: white;
+    margin: 10px;
+    position: relative;
+    padding: 10px 20px;
+    overflow: hidden;
+}
+
+.nav-item a:hover {
+    color: #0069ff;
+    cursor: pointer;
+    transition: 0.7s;
+}
+
+.nav-item a::after {
+    background-color: white;
+    content: "";
+    width: 0;
+    height: 3px;
+    left: 0;
+    bottom: 0;
+    transition: width 0.35s ease 0.1s;
+    position: absolute;
+}
+
+.nav-item a:hover::after {
+    width: 100%;
+}
+
+.row-name-header {
+    font-family: prodbold;
+    font-size: 55px;
+    color: white;
+}
+
+.row-name-title {
+    font-family: 'Yellowtail', cursive;
+    font-size: 80px;
+    color: #0069ff;
+    padding: 0px 10px 0px 5px;
+}
+
+.button-transparent {
+    min-width: 7vw;
+    display: inline-block;
+    padding: 0.35em 1.2em;
+    border: 0.1em solid #FFFFFF;
+    margin: 2.5em 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: prodmed;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    text-align: center;
+    transition: all 0.2s;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.info-container {
+    padding-top: 20vh;
+    min-height: 100vh;
+    background-color: transparent;
+}
+
+.button-transparent:hover {
+    color: #000000;
+    background-color: #FFFFFF;
+    text-decoration: none;
+}
+
+.left-info {
+    background-color: transparent;
+    font-family: prodbold;
+    color: white;
+}
+
+.right-info-tab {
+    font-family: 'Bungee', cursive;
+}
+
+.about-me-container {
+    padding-top: 10vh;
+    min-height: 100vh;
+}
+
+#about-me-grid-container {
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.header-title {
+    font-size: 21px;
+    font-family: 'Inter', sans-serif;
+    color: #1d1d1f;
+    margin-top: 2vh;
+    font-weight: 600;
+    letter-spacing: -.5px;
+}
+
+.header-sub {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: white;
+    font-size: 16px;
+}
+
+#smaller-square {
+    text-align: left;
+    min-height: 30vh;
+    font-family: prodmed;
+    background-color: #ffffff;
+    border-radius: 12px;
+    margin-bottom: 1vh;
+    box-shadow: inset 1px 1px 1px -0.5px hsl(0deg 0% 100% / 70%), 3px 3px 7px -3px rgb(0 0 0 / 10%);
+}
+
+#square {
+    font-family: prodmed;
+    background-color: #ffffff;
+    height: 38vh;
+    margin-bottom: 1vh;
+    border-radius: 12px;
+    box-shadow: inset 1px 1px 1px -0.5px hsl(0deg 0% 100% / 70%), 3px 3px 7px -3px rgb(0 0 0 / 10%);
+}
+
+#sgSvg {
+    width: 180px;
+    vertical-align: middle;
+    margin-bottom: 10px;
+}
+
+#small-rectangle {
+    font-family: prodmed;
+    background-color: #ffffff;
+    height: 15vh;
+    margin-bottom: 1vh;
+    border-radius: 12px;
+    box-shadow: inset 1px 1px 1px -0.5px hsl(0deg 0% 100% / 70%), 3px 3px 7px -3px rgb(0 0 0 / 10%);
+}
+
+#big-rectangle {
+    background-color: #ffffff;
+    height: 54vh;
+    margin-left: 1vh;
+    border-radius: 12px;
+    box-shadow: inset 1px 1px 1px -0.5px hsl(0deg 0% 100% / 70%), 3px 3px 7px -3px rgb(0 0 0 / 10%);
+}
+
+#vert-long-rectangle {
+    height: 50vh;
+    background-color: red;
+    border-radius: 12px;
+}
+
+.achievements-list {
+    text-align: center;
+}
+
+.testla {
+    text-align: left;
+    background-color: transparent;
+}
+
+#achievements-logo {
+    background-color: #252527;
+    color: gold;
+    padding: 8px;
+    font-size: 30px;
+    border-radius: 12px;
+    vertical-align: middle;
+}
+
+.achievements-title {
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: #1d1d1f;
+    margin-left: 5px;
+}
+
+#long-rectangle {
+    height: 17vh;
+    background-color: green;
+    border-radius: 12px;
+}
+
+.box-title {
+    font-size: 22px;
+    padding-top: 2vh;
+    margin-top: 2vh;
+    color: #1d1d1f;
+    font-family: prodbold;
+}
+
+.box-text {
+    font-family: prodmed;
+    font-size: 16px;
+    transform: translateY(13%);
+    padding: 20px;
+    vertical-align: middle;
+}
+
+#avilability {
+    font-family: prodmed;
+}
+
+#status-text {
+    font-family: prodmed;
+}
+
+#time-text {
+    font-family: prodmed;
+}
+
+.projects-container {
+    padding-top: 10vh;
+    min-height: 100vh;
+}
+
+.projects-image {
+    background-color: transparent;
+    margin-left: -5vh;
+    width: 60vh;
+}
+
+.projects-logoimage {
+    width: 20vh;
+}
+
+.projects-info {
+    transform: translateY(95%);
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: prodmed;
+}
+
+.projects-type {
+    font-family: 'Rubik', sans-serif;
+    font-size: 32px;
+    letter-spacing: 5px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.projects-name {
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+}
+
+.footer {
+    margin-top: 10vh;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    color: #636363;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#email {
+    text-decoration: none;
+}
+
+#email:hover {
+    transition: 0.7s;
+    color: white;
+}
+
+@media (max-width:991px) {
+    .site-footer [class^=col-] {
+        margin-bottom: 30px
+    }
+    .row {
+        padding: 1em;
+    }
+    .row-name-header {
+        font-size: 30px;
+    }
+    .row-name-title {
+        font-size: 45px;
+    }
+    #info-tab {
+        text-align: center;
+    }
+    .left-info {
+        padding: 40px;
+    }
+    .right-info-tab {
+        padding: 20px;
+    }
+    #sec-container {
+        height: auto;
+    }
+    #sgSvg {
+        width: 130px;
+    }
+    #square {
+        height: 100%;
+    }
+    #small-rectangle {
+        height: 100%;
+        font-family: prodmed;
+    }
+    #big-rectangle {
+        margin-left: 0vh;
+    }
+    .projects-info {
+        transform: translateY(0);
+    }
+    .projects-image {
+        width: 40vh;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:767px) {
+    .row {
+        padding: 1em;
+    }
+    .row-name-header {
+        font-size: 30px;
+    }
+    .row-name-title {
+        font-size: 45px;
+    }
+    #info-tab {
+        text-align: center;
+    }
+    .left-info {
+        padding: 40px;
+    }
+    .right-info-tab {
+        padding: 20px;
+    }
+}

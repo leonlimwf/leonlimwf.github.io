@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="asset/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="asset/favicon.ico" type="image/x-icon" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://kit.fontawesome.com/fdc798ee43.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="styles/main.css" />
+
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+
+
+    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    <title>Leo</title>
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
+
+    <script src="js/status.js"></script>
+</body>
+
+<body style="background-image: url(asset/background.jpg)" onload="loadStatus()">
+    <div class="background">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand tablehopper ml-2" href="#" style="color: #006AFF;">limwf.com</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-list" fill="currentColor"
+                    xmlns="http://www.w3.org/2000/svg" style="color: white;">
+                    <path fill-rule="evenodd"
+                        d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                </svg>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                <ul class="nav">
+                    <!-- <li class="nav-item active">
+                        <a class="nav-link">About Us<span
+                                class="sr-only">(current)</span></a>
+                    </li>-->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects-container">Portfolio 📍</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about-me-container">About 👩‍💻</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#info-container">Skills ✏️</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#footer">Contact 👋</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+
+        <section class="home container" id="home-container" style="margin-top: 9%;text-align: center;">
+            <div class="row">
+                <h1 class="row-name-header">Hi! I’m <span class="row-name-title">Leo</span>, a full-time student and part-time dreamer.</h1>
+            </div>
+            <br>
+            <div class="row-button">
+                <a href="#about-me-container" class="button-transparent">About Me</a>
+                <a href="#projects-container" class="button-transparent">Portfolio</a>
+            </div>
+
+
+        </section>
+    </div>
+</body>
+
+
+<div style="background-color: black;">
+    <div class="info-container" id="info-container">
+        <div class="container" id="sec-container">
+            <div class="row">
+                <div class="col left-info">
+                    <div class="col" id="info-tab">
+                        <h5 style="color: darkgray;font-size: 26px;">My Passion</h5>
+                        <h2 style="font-size: 30px;font-family: 'Bungee', cursive;">What Do I Like</h2>
+                        <br>
+                        <p style="color: #5b6987;">In </p>
+                        <a href="#info-tab" class="button-transparent" style="margin-top: 1em;"><i class="fas fa-laptop-code" style="padding-right: 8px"></i>My Portfolio</a>
+                    </div>
+                </div>
+                <div class="col right-info" style="background-color: transparent;margin-top: 3px;">
+                    <div class="row">
+                        <div class="col-md-6 right-info-tab">
+                            <i class="fab fa-html5" style="font-size: 3.5em;color: #de4b25;margin: 5px;border-color: red;"></i>
+                            <i class="fab fa-css3-alt" style="font-size: 3.5em;color: #016cb4;margin-bottom: 5px;"></i>
+                            <h2 style="font-size: 24px;color: white;">Web Development</h2>
+                            <p style="font-family: prodmed;color: #5b6987;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo tellus vitae justo aliquet suscipit. Nullam dapibus dolor ligula, eu tincidunt ligula </p>
+                        </div>
+
+                        <div class="col-md-6 right-info-tab">
+                            <i class="fas fa-pen-nib" style="font-size: 3.5em;color: #de4b25;margin: 5px;border-color: red;"></i>
+                            <i class="fas fa-drafting-compass" style="font-size: 3.5em;color: #016cb4;margin-bottom: 5px;"></i>
+                            <h2 style="font-size: 24px;color: white;">Designing</h2>
+                            <p style="font-family: prodmed;color: #5b6987;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo tellus vitae justo aliquet suscipit. Nullam dapibus dolor ligula, eu tincidunt ligula </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 right-info-tab">
+                            <i class="fab fa-dev" style="font-size: 3.5em;color: white;margin: 0px 0px 10px 0px;border-color: red;"></i>
+                            <h2 style="font-size: 24px;color: white;">Crafting</h2>
+                            <p style="font-family: prodmed;color: #5b6987;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc commodo tellus vitae justo aliquet suscipit. Nullam dapibus dolor ligula, eu tincidunt ligula </p>
+                        </div>
+                        <br>
+                        <div class="col-md-6 right-info-tab">
+                            <i class="fa fa-leanpub" style="font-size: 3.5em;color: green;margin: 0px 0px 10px 0px;border-color: red;"></i>
+                            <h2 style="font-size: 24px;color: white;">Learning</h2>
+                            <p style="font-family: prodmed;color: #5b6987;">I love to learn new stuff when I am free, especially in the technology sector. Always on the hunt for new languages to dive into.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div style="background-color: #151515;">
+    <div class="about-me-container" id="about-me-container">
+        <center>
+            <h3 class="header-title" style="color: white;font-size:56px ;">About Me</h3>
+        </center>
+        <div class="container" id="about-me-grid-container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="row">
+                        <div class="col-12" id="square">
+                            <h2 class="header-title">Hello!</h2>
+                            <p class="box-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla mattis risus a dui blandit, sed congue est auctor. Morbi laoreet lorem lacus, ut porta lacus porttitor eu. Pellentesque faucibus, sem ac congue bibendum, lectus
+                                urna aliquam quam, et pretium purus orci non turpis.</p>
+                        </div>
+                        <div class="col-12 status-div" id="small-rectangle">
+                            <h2 class="header-title">Status:
+                                <span id="availability"></span>
+                            </h2>
+                            <p id="status-text">Online</p>
+                            <p id="time-text">12:00:34</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7" style="background-color: transparent;">
+                    <div class="row">
+                        <div class="col-md-12" id="big-rectangle">
+                            <h2 class="header-title">Studying</h2>
+                            <p class="box-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla mattis risus a dui blandit, sed congue est auctor. Morbi laoreet lorem lacus, ut porta lacus porttitor eu. Pellentesque faucibus, sem ac congue bibendum, lectus
+                                urna aliquam quam, et pretium purus orci non turpis.</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+        </div>
+    </div>
+
+</div>
+
+<div style="background-color: black;">
+
+    <div class="projects-container" id="projects-container">
+        <center>
+            <h3 class="header-title" style="font-size: 56px;color: white;">Projects</h3>
+            <p class="header-sub">2018 - Present</p>
+        </center>
+
+        <div class="container-fluid" style="background-color: transparent;">
+            <div class="row" id="projects-reveal">
+                <div class="col-sm-6" style="background-color: transparent;text-align: center;">
+                    <div class="projects-info">
+                        <img class="projects-logoimage" src="asset/decibel-logo.png">
+                        <h3 class="projects-type">Music App</h3>
+                        <h5 class="projects-name">Decibel</h5>
+                        <h5 class="projects-name" style="color: silver;">2020-Present</h5>
+                    </div>
+                </div>
+                <div class=" col-md-6 " style="background-color: transparent; ">
+                    <center>
+                        <img class="projects-image " src="asset/decibel.png ">
+                    </center>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid " style="background-color: transparent;margin-top: 20vh; ">
+            <div class="row ">
+                <div class="col-sm-6 " style="background-color: transparent;text-align: center; ">
+                    <div class="projects-info ">
+                        <img class="projects-logoimage " src="asset/tablehopper-logo.png ">
+                        <h3 class="projects-type ">Restaurant Review</h3>
+                        <h5 class="projects-name ">Table Hopper</h5>
+                        <h5 class="projects-name " style="color: silver; ">2020-Present</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 " style="background-color: transparent; ">
+                    <center>
+                        <img class="projects-image " src="asset/tablehopper.png ">
+                    </center>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <footer class="footer" id="footer">
+        <center>
+            <p style="font-size: 15px;">@ 2021</p>
+            <p style="font-size: 12px;"><a href="mailto:admin@limwf.com" id="email">admin@limwf.com</a></p>
+
+            <p style="font-size: 12px;" id="update">Last Updated</p>
+        </center>
+    </footer>
+</div>
+
+<script src="js/reveal.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <footer class="site-footer ">
+    <div class="container ">
+        <div class="row ">
+            <div class="col-sm-12 col-md-6 ">
+
+                <h6><i class="fas fa-info-circle " style="font-size: 17px;color: white; "></i> About</h6>
+                <p class="text-justify " style="color: white; ">Table Hopper is a website founded by a Student in Temasek Polytechnic while he was on his break. He was disappointed that Yelp and other websites did not helped much when he was finding a restaurant in Singapore, as the design was either
+                    too compact or held too little info. Thus, he built a website that allows other to use and also find out more about the restaurant that they want to visit.</p>
+            </div>
+
+            <div class="col-xs-6 col-md-3 ">
+                <h6><i class="fas fa-bookmark " style="font-size: 17px;color: white; "></i> Categories</h6>
+                <ul class="footer-links ">
+                    <li><a href="http://scanfcode.com/category/c-language/ ">Cheap and Good Food</a></li>
+                    <li><a href="http://scanfcode.com/category/front-end-development/ ">Fancy Dining</a></li>
+                    <li><a href="http://scanfcode.com/category/back-end-development/ ">Family-Friendly</a></li>
+                    <li><a href="http://scanfcode.com/category/java-programming-language/ ">Barbeque</a></li>
+                    <li><a href="http://scanfcode.com/category/android/ ">Steamboat</a></li>
+                    <li><a href="http://scanfcode.com/category/templates/ ">Others</a></li>
+                </ul>
+            </div>
+
+            <div class="col-xs-6 col-md-3 ">
+                <h6><i class="fas fa-link " style="font-size: 17px;color: white; "></i> Quick Links</h6>
+                <ul class="footer-links ">
+                    <li><a href="http://scanfcode.com/about/ ">About Us</a></li>
+                    <li><a href="http://scanfcode.com/contact/ ">Contact Us</a></li>
+                    <li><a href="http://scanfcode.com/contribute-at-scanfcode/ ">Search</a></li>
+                    <li><a href="http://scanfcode.com/sitemap/ ">Sitemap</a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+    </div>
+    <div class="container ">
+        <div class="row ">
+            <div class="col-md-8 col-sm-6 col-xs-12 ">
+                <p class="copyright-text ">Copyright &copy; 2020 All Rights Reserved by
+                    <a href="# ">Leo Lim</a>.
+                </p>
+            </div>
+
+            <div class="col-md-4 col-sm-6 col-xs-12 ">
+                <ul class="social-icons ">
+                    <li><a class="facebook " href="# "><i class="fa fa-facebook "></i></a></li>
+                    <li><a class="twitter " href="# "><i class="fa fa-twitter "></i></a></li>
+                    <li><a class="dribbble " href="# "><i class="fa fa-dribbble "></i></a></li>
+                    <li><a class="linkedin " href="# "><i class="fa fa-linkedin "></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer> -->
+
+
+
+</html>
