@@ -190,6 +190,8 @@ html {
     margin-left: 1vh;
     border-radius: 12px;
     box-shadow: inset 1px 1px 1px -0.5px hsl(0deg 0% 100% / 70%), 3px 3px 7px -3px rgb(0 0 0 / 10%);
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
 }
 
 #vert-long-rectangle {
@@ -241,7 +243,7 @@ html {
 .box-text {
     font-family: prodmed;
     font-size: 16px;
-    transform: translateY(13%);
+    transform: translateY(15%);
     padding: 20px;
     vertical-align: middle;
 }
@@ -330,6 +332,9 @@ html {
     .row-name-title {
         font-size: 45px;
     }
+    .box-text {
+        transform: translateY(0%);
+    }
     #info-tab {
         text-align: center;
     }
@@ -382,5 +387,8 @@ html {
     }
     .right-info-tab {
         padding: 20px;
+    }
+    .box-text {
+        transform: translateY(0%);
     }
 }
