@@ -56,6 +56,8 @@ function loadLastUpdated() {
   var second = Math.floor(Math.random() * 10);
   var third = Math.floor(Math.random() * 10);
   var final = first + "." + second + "." + third;
+  document.getElementById("update").innerHTML =
+    "Last Updated Version: " + final;
 }
 
 function loadAvailability() {
